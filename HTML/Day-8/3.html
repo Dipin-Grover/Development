@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>IIT JEE Registration Form</legend>
+
+        <form >
+
+        
+
+        <label for="name">Full Name:</label>
+        <input type="text" name="full_name" id="name">
+
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+
+        <label for="phone_no">Phone No:</label>
+        <input type="tel" name="phone_no" id="phone_no">
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <br><br>
+
+        <label for="">Gender:</label>
+        <input type="radio" id="Male" name="gender">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="gender">
+        <label for="Female">Female</label>
+        <input type="radio" id="Other" name="gender">
+        <label for="Other">Other</label>
+
+        <br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" min="2004-01-01" max="2005-12-31">
+
+        <br><br>
+
+        <label for="school_name">School Name:</label>
+        <input type="text" id="school_name" for="school_name">
+
+        <br><br>
+        <label for="board_name">Board:</label>
+        <select name="board_name" id="board_name">
+            <option value="" selected disabled>Select your Board</option>
+            <option value="CBSE">CBSE</option>
+            <option value="ICSE">ICSE</option>
+            <option value="State Board">State Board</option>
+        </select>
+
+        <br><br>
+
+        <label for="year_of_passing">Year of passing:</label>
+        <input type="number" id="year_of_passing" name="year_of_passing" max="2025" min="2024" >
+
+
+        <br><br>
+
+        <label for="select_center">Select Center</label>
+        <select name="select_center" id="select_center">
+            <option value="" selected disabled>Select Center</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Gurgaon">Gurgaon</option>
+            <option value="Noida">Noida</option>
+        </select>
+
+        <br><br>
+
+        <button>Register</button>
+
+        </form>
+    </fieldset>
+</body>
+</html>
