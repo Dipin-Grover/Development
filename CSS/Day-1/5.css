@@ -1,0 +1,28 @@
+/* body{
+    background-color: blanchedalmond;
+} */
+
+
+/* universal selector  (*) hota h */
+
+/* *
+{
+    background-color: cadetblue;
+    color: white;
+} */
+
+
+
+h2,h1,p,#first{
+    background-color: burlywood;
+}
+
+h3[contenteditable = "true"]
+{
+    background-color: cadetblue;
+}
+
+h3[draggable = "true"]
+{
+    background-color: aqua;
+}

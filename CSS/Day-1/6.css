@@ -1,0 +1,10 @@
+/* select by descendent */
+/* section p{
+    background-color: bisque;
+} */
+
+
+/* child selector h yeh  */
+section > p{
+    background-color: cadetblue;
+}

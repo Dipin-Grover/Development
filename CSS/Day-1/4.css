@@ -1,0 +1,18 @@
+h1{
+    background-color: cadetblue;
+}
+
+ul{
+    background-color: bisque;
+}
+
+/* class selector */
+.first
+{
+    background-color: aquamarine;
+}
+
+#second
+{
+    background-color: burlywood;
+}

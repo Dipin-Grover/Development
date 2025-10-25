@@ -1,0 +1,42 @@
+h2{
+    /* background-color: burlywood;  */
+    /* normal standard colors */
+
+    color: rgb(199, 175, 181);
+
+
+    /* using rgb */
+
+    color: rgba(199, 175, 181,1);
+    /* background-color: darkturquoise; */
+
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* font-size: 3em; */
+    /* relative to parent  */
+
+    font-size: 50%;
+    /* relative in percentage to parent  */
+
+
+}
+h3
+{
+    color: #ad4962
+
+    /* using hexadecimal */
+}
+
+body{
+    /* background-color: bisque;
+
+    background-image:url(https://img.freepik.com/free-photo/beautiful-aerial-shot-fronalpstock-mountains-switzerland-beautiful-pink-blue-sky_181624-9315.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+
+p {
+   color: hsl(280, 70%, 29%);
+}
