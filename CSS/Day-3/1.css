@@ -1,0 +1,30 @@
+h1{
+    font-size: 10vw;
+
+    /* 10% of viewport width     */
+
+    font-size: 10vh;
+    /* 10 % of viewport height */
+
+    font-weight: normal;
+
+    /* font weight se text ki thickness pta chalti h */
+
+    font-style: italic;
+
+    font-variant: small-caps;
+
+    text-transform: uppercase;
+
+}
+
+p{
+    line-height: 30px;
+
+    letter-spacing: 2px;
+
+    word-spacing: 10px;
+
+    
+}
+

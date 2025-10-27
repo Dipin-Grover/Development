@@ -1,0 +1,41 @@
+.card
+{
+    background-color: aqua;
+    border: 5px solid blue;
+    margin: 20px 20px 20px 35vw;
+    padding: 15px;
+    height: 20vh;
+    width: 30vw;
+
+}
+
+h2{
+    text-align: center;
+    color: darkslategrey;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+body{
+    background-color: #c9c5b9;
+}
+
+.card:hover
+{
+    background-color: pink;
+}
+
+.card:hover h3{
+    color: darkslateblue;
+}
+
+.card:hover
+{
+    scale: 1.1;
+}

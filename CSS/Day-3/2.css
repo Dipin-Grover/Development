@@ -1,0 +1,79 @@
+/* h1{
+    background-color: burlywood;
+    font-size: 40px;
+} */
+
+
+/* agar hum same hi element ko target kar rhe h toh jo background color baad me h whi lagega bhai  jaise phle iska color burlywood tha aur ab pink ho gya */
+
+
+/* h1{
+    background-color: pink; 
+    
+
+    color: blue;
+} */
+
+
+
+/* element selector */
+/* h1{
+    background-color: aqua;
+} */
+
+
+
+
+
+/* id selector */
+/* #first_id
+{
+    background-color: burlywood;
+} */
+
+/* class selector */
+/* .first_class
+{
+    background-color: deepskyblue;
+} */
+
+/* attribute slector */
+/* h1[draggable="true"]
+{
+    background-color: maroon;
+} */
+
+
+
+
+/* descendent selector */
+/* body h1{
+    background-color: grey;
+} */
+
+
+
+
+/* child slector */
+/* body > h1{
+    background-color: greenyellow;
+} */
+
+/* according to priorities */
+/* first we give priority to id -> then we give prioriy to attribute selector -> then we give priority to class -> then child and descendent selector have same priorities -> element selector  , grouping slector have same priority  */
+
+
+
+/* h1{
+    background-color: burlywood;
+} */
+
+
+/* sabse jyada priority hoti h inline ki -> internal aur eteranl ki priority same h jo baad me aayega wo legega */
+
+
+h1{
+    background-color: grey !important;
+}
+
+/* sabka baapp he yeh imp wala  */
