@@ -1,0 +1,27 @@
+.box
+{
+    display: inline;
+    background-color: aqua;
+
+    margin: 20px;
+
+    height: 200px;
+    width: 300px;
+}
+
+.first
+{
+    display: block;
+    background-color: burlywood;
+
+    height: 300px;
+    width: 300px;
+
+    margin: 50px;
+}
+
+/* inline me height width kam nhi karte h  */
+
+/* inline me bas margin kaam karta h wo bhi horizontal direction me not vertically */
+
+/* display inline aur block se hum inko convert kar sakte h ek dusre me  */

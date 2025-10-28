@@ -1,0 +1,79 @@
+.container
+{
+    background-color: aqua;
+
+    margin-left: 30vw;
+
+    margin-top: 30vh;
+
+    position: relative;
+
+    height: 2000px;
+    
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.box1
+{
+    background-color: burlywood;
+}
+
+.box2
+{
+    background-color: cadetblue;
+
+    /* position: relative; */
+
+
+    position: sticky;
+
+    top: 0px;
+
+
+    
+}
+
+/* relative wala apni orginal jaagah kisi ko nhi dega bhai wo reserved h uske lie relative hum use karte h uko apni orginal position se hilane ke lie  */
+
+/* aboslute wala apni original position ko chor dega koi aur le sakta h usse aur agar uske ancestor ke paas postioing h except from static toh wo uske respect me shift hoga aur agar kisi bhi ancestor ke paas positioning static ke alawa nhi h toh wo viewport ke according adjust hoga  */
+
+.box3
+{
+    background-color: hotpink;
+    /* iske parent ke paas h position except from tsatic so absolite will work according to parent container positioning  */
+
+    position: absolute;
+
+    left :500px;
+    top: 10px;
+}
+
+.box4
+{
+    background-color: lavender; 
+
+    position: fixed;
+
+    left: 50px;
+
+    top: 10px;
+
+
+}
+/* fixed wla kehta h mai viewport ke repect me position change karunga bhai a aur apni original position ko chor deta h koi bhi aa skata h wha pe  */
+
+.faltu
+{
+    background-color: black;
+
+    height: 800px;
+}
+
+
+/* sticky se wo parent container ke andar hi rhta h bhai */

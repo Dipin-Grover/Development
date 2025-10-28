@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+}
+
+div
+{
+    width: 33.3vw;
+    height: 100vh;
+    display: inline-block;
+}
+
+#first
+{
+    background-color: #00ab4f;
+}
+
+#second
+{
+    background-color: #ffffff;
+}
+
+#third
+{
+    background-color: #f68121;
+}

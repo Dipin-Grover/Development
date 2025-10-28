@@ -1,0 +1,12 @@
+span{
+    background-color: cadetblue;
+
+    display: inline-block;
+
+    height: 200px;
+
+    width: 200px;
+
+
+    margin: 20px;
+}
