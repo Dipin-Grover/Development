@@ -1,0 +1,21 @@
+
+
+.img1
+{
+    height: 300px;
+    width: 250px;
+    width: auto;
+    float: right;
+    clear: left;
+}
+
+/* clear left agar mai karu toh wo kehta h agar left me koi floating wala h toh mujhe niche kar dena  */
+
+.img2
+{
+    height: 300px;
+    width: auto;
+    float: left;
+    clear: right;
+    
+}

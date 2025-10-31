@@ -1,0 +1,268 @@
+*
+{
+    margin: 0;
+}
+
+
+.card
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    cursor: pointer;
+
+    border: 2px solid white;
+    border-radius: 5px;
+
+    
+    
+}
+
+.card:hover
+{
+    border: solid #edf3f3 2px;
+    border-radius: 10px;
+
+    background-color: rgb(252, 246, 246);
+    
+
+    
+}
+
+.box
+{
+    display: inline-block;
+}
+
+img
+{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    
+}
+
+.img
+{
+    position: relative;
+}
+
+.resturant_name
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.name_of_resturant
+{
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.rating
+{
+    background-color: green;
+    height: 20px;
+    width: auto;
+    border-radius: 8px;
+    position: absolute;
+    right: 5px;
+    padding: 3px;
+
+    color: white;
+
+    
+}
+
+.price
+{
+    position: absolute;
+    right: 5px;
+}
+
+.food_type
+{
+    position: relative;
+    margin-bottom: 5px;
+
+    color: #8f8c89;
+
+}
+
+.distance
+{
+    position: absolute;
+    right: 5px;
+
+    font-weight: 600;
+    font-size: 15px;
+
+
+}
+
+.location
+{
+    position: relative;
+}
+
+.place
+{
+     color: #8f8c89;
+}
+
+.discount
+{
+    position: absolute;
+    bottom: 40px;
+    background-color: #a59da39c;
+    font-size: 18px;
+
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin-left: 2px;
+}
+
+
+span
+{
+    font-weight: 600;
+}
+
+
+/* adding header */
+
+.upper_header_portion
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.brand_name
+{
+    margin-right: 50px;
+}
+
+.Search
+{
+    height: 40px;
+    width: 800px;
+
+    margin-right:50px;
+    margin-top: 5px;
+
+    padding-left: 00px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding-left: 300px;
+}
+
+.login
+{
+    margin-right: 30px;
+    
+}
+
+.login_button,.signup_button    
+{
+    height: 40px;
+    width: 50px;
+
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.login_or_signup
+{
+    margin-right: 50px;
+
+    margin-top: 5px;
+}
+
+.header_container
+{
+    background-color: #f8f8f8;
+}
+
+
+.outer_one
+{
+    position: relative;
+}
+
+
+.lower_header_buttons
+{
+    display: inline-block;
+    height: 80px;
+    width: 200px;
+    position: relative;
+}
+
+.funtionality_buttons_images
+{
+    height: 40px;
+    width: 40px;
+
+    
+   display: inline-block;
+   /* padding-top: 20px; */
+
+   position: relative;
+
+   top:15px
+    
+}
+
+.functionilities
+{
+    display: inline-block;
+    height: 100%
+
+}
+
+.btn
+{
+    height: 100%;
+
+    
+
+    height: 50%;
+
+    margin-top: 20px;
+    background: none;
+    border: none;
+
+    
+}
+
+.btn:hover
+{
+    cursor: pointer;
+}
+.btn p{
+    font-size: 18px;
+    color:#abb0ac
+}
+
+
+
+
+.lowerheader
+{
+    position: sticky;
+    
+    top: 20px;
+
+    background-color: white;
+    
+}
+
+.outer_one
+{
+    margin: 0;
+}
+
+
