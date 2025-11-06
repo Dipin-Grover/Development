@@ -1,0 +1,19 @@
+.container
+{
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+}
+
+@media (max-width:500px)
+{
+    /* 500px se kam hua toh yeh styles apply karne h bhai  */
+    .container
+    {
+        background-color: bisque;
+
+        height: 300px;
+
+        width: 300px;
+    }
+}

@@ -1,0 +1,71 @@
+/* .container
+{
+    background-color: beige;
+    text-align: center;
+}
+
+h1{
+    background-color: aqua;
+}
+
+p{
+    background-color: cadetblue;
+}
+
+button
+{
+    background-color: crimson;
+} */
+
+/* text align se hum block level ke content ko center kar sakte h but element ko nhi  */
+/* text align se hum inline walo pure element ko hi center kar sakte h na ki keval text ko  */
+
+/* .temp
+{
+    background-color: cyan;
+    margin-top: 10px;
+    text-align: justify;
+} */
+
+
+/* .text
+{
+    background-color: cadetblue;
+    text-align-last: justify;
+} */
+
+
+
+/* h1{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+} */
+
+
+/* span{
+    vertical-align: super;
+} */
+
+
+
+
+h1{
+    /* text-decoration-line: underline overline;
+
+    text-decoration-style: solid;
+
+    text-decoration-thickness: 3px; */
+
+
+    text-transform: capitalize;
+
+
+}
+
+p{
+    text-indent: 500px;
+    letter-spacing: 2px;
+
+    line-height: 25px;
+}
+

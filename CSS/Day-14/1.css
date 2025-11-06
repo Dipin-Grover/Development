@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container
+{
+    height: 800px;
+    width: 800px;
+    background-color: aqua  ;
+    display: grid;
+    /* grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px 200px; */
+
+
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    row-gap: 2rem;
+    column-gap: 2rem;
+
+    
+}
+
+.box
+{
+    background-color: cadetblue;
+    border: royalblue solid 2px;
+}
