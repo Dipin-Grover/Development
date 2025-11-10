@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.container
+{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.orbit
+{
+    
+    height: 150px;
+    width: 150px;
+   /* background-color: green; */
+   position: relative;
+}
+
+
+.sun
+{
+    background-color: yellow;
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+
+.mercury
+{
+    background-color: orangered;
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+
+    animation-name: Mercury;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+
+.venus
+{
+    background-color: crimson;
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    animation-name: Venus;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.earth
+{
+    background-color: aqua;
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+
+
+
+    animation-name: Earth;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes Mercury
+{
+    from
+    {
+        transform: rotate(0deg) translate(150px);
+    }
+    to{
+        transform: rotate(360deg) translate(150px);
+    }
+}
+
+@keyframes Venus
+{
+    from
+    {
+        transform: rotate(0deg) translate(250px);
+    }
+    to{
+        transform: rotate(360deg) translate(250px);
+    }
+}
+
+
+@keyframes Earth{
+    from
+    {
+        transform: rotate(0deg) translate(350px);
+    }
+    to{
+        transform: rotate(360deg) translate(350px);
+    }
+}
+
+

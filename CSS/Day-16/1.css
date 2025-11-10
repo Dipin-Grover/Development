@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+
+
+.container
+{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;
+
+    background-color: darkcyan;
+    color: white;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 3s;
+
+    
+}
+
+.box:hover{
+    /* transform: translate(400px,200px); */
+
+
+    /* transform: scale(2,3); */
+
+
+    /* transform: rotate(-45deg); */
+
+
+
+    /* transform: skew(-45deg); */
+
+
+    transform: translate(200px , 300px) rotate(45deg) scale(2);
+
+    transform: rotate(60deg);
+
+    transform-origin: bottom right;
+
+}
+
+/* tranlate element ko mov ekar dega */
+/* scle bada chota kar sakta  */
+/* roatate isko roatate kar dega  */
+/* skew isko tilt kar sakata h */
+
+
+

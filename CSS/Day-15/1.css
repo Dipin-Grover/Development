@@ -1,0 +1,127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    background-color: aqua;
+    height: 600px;
+    width: 800px;
+
+    display: grid;
+
+    /* grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.8rem;
+    grid-template-areas: 
+    "Box1 Box2 Box2 Box3"
+    "Box1 Box4 Box5 Box6"
+    "Box1 Box7 Box8 Box6"; */
+
+    gap: 0.5rem;
+}
+
+.box1
+{
+    /* grid-area: Box1; */
+    background-color: cadetblue;
+}
+
+.box2
+{
+    /* grid-area: Box2; */
+    background-color: cadetblue
+}
+
+.box3
+{
+    /* grid-area: Box3; */
+
+    background-color: #cf3c7e;
+}
+
+.box4
+{
+    /* grid-area: Box4; */
+
+    background-color: #bbc97d;
+}
+
+.box5
+{
+    /* grid-area: Box5; */
+
+    background-color: #a83e4c;
+}
+
+.box6
+{
+    /* grid-area: Box6; */
+    background-color: cadetblue;
+
+}
+
+.box7
+{
+    /* grid-area: Box7; */
+    background-color: #a83e4c
+}
+.box8
+{
+    /* grid-area: Box8; */
+    background-color: #bbc97d
+}
+
+.box1{
+    border: solid black 2px;
+}
+
+/* agar screen size 500 px se bada ho toh aise grid dikhao */
+
+@media (min-width :500px)
+{
+    .container{
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
+        grid-template-areas: 
+     "Box1 Box2 Box2 Box3"
+     "Box1 Box4 Box5 Box6"
+     "Box1 Box7 Box8 Box6";
+    }
+
+    .box1{
+        grid-area: Box1;
+    }
+
+    .box2{
+        grid-area: Box2;
+    }
+
+    .box3{
+        grid-area: Box3;
+    }
+
+    .box4{
+        grid-area: Box4;
+    }
+
+    .box5{
+        grid-area: Box5;
+    }
+
+
+    .box6{
+        grid-area: Box6;
+    }
+
+    .box7{
+        grid-area: Box7;
+    }
+
+    .box8{
+        grid-area: Box8;
+    }
+}

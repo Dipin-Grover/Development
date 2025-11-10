@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: end;
+    align-content: end;
+}
+
+.container
+{
+    width: 60%;
+   
+    display: grid;  
+
+    height: 60%;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+
+    justify-items: center;
+    align-items: end;
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    
+}
